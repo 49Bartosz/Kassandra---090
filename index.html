@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KASS STUDIO | Photography in Den Haag</title>
+<meta name="description" content="People, places & memories preserved through my lens. Photographer based in Den Haag, The Netherlands.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <span class="loader-word">Kass Studio</span>
+</div>
+<div class="progress" id="progress"></div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <a href="#top" class="logo">Kass Studio</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="nav" id="nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="hero-small reveal">Photographer · Den Haag, NL</p>
+    <h1 class="hero-title"><span class="line"><span>Kass</span></span><span class="line"><span>Studio</span></span></h1>
+    <p class="hero-slogan reveal">People, places &amp; memories<br>preserved through my lens.</p>
+    <div class="hero-btns reveal">
+      <a href="#gallery" class="btn">View my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <div class="frame" id="heroFrame">
+      <!-- 👇 PUT KASSANDRA'S PHOTO HERE (images/kassandra.jpg) -->
+      <img src="Kassandraa.jpg" alt="Portrait of Kassandra, founder of KASS STUDIO">
+    </div>
+    <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>People</span><i>✦</i><span>Places</span><i>✦</i><span>Memories</span><i>✦</i>
+    <span>People</span><i>✦</i><span>Places</span><i>✦</i><span>Memories</span><i>✦</i>
+    <span>People</span><i>✦</i><span>Places</span><i>✦</i><span>Memories</span><i>✦</i>
+    <span>People</span><i>✦</i><span>Places</span><i>✦</i><span>Memories</span><i>✦</i>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="about-img reveal-left">
+    <!-- 👇 SECOND PHOTO OF HER / BEHIND THE CAMERA (images/about.jpg) -->
+    <img src="Kassandra.jpg" alt="Kassandra with her camera" loading="lazy">
+  </div>
+  <div class="about-text">
+    <h2 class="title reveal">Hi, I'm Kassandra.</h2>
+    <p class="reveal">I'm the photographer behind KASS STUDIO, based in Den Haag. I believe a photo should feel like the moment did: the laugh you almost missed, the light on a quiet street, the people who make a day worth remembering.</p>
+    <p class="reveal">I shoot people, places and memories, with a soft, natural and honest style. No stiff poses, just real moments that you'll want to look back on for years.</p>
+    <p class="reveal">You can also find me on TikTok, where I share my work and behind-the-scenes.</p>
+    <a href="https://www.tiktok.com/@framesbykass" target="_blank" rel="noopener" class="btn reveal">Follow @framesbykass</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services dark" id="services">
+  <h2 class="title center reveal">What I photograph</h2>
+  <div class="service-list">
+    <article class="service reveal">
+      <h3>People</h3>
+      <p>Portraits, couples, friends and family. Relaxed sessions where you can just be yourself.</p>
+    </article>
+    <article class="service reveal">
+      <h3>Places</h3>
+      <p>Cityscapes, architecture and travel photography, from Den Haag's streets to places a little further away.</p>
+    </article>
+    <article class="service reveal">
+      <h3>Memories</h3>
+      <p>Birthdays, graduations, small events and celebrations, captured so you can enjoy them again later.</p>
+    </article>
+    <article class="service reveal">
+      <h3>Content</h3>
+      <p>Photos for your brand, socials or small business that feel personal and look professional.</p>
+    </article>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section gallery" id="gallery">
+  <h2 class="title center reveal">Gallery</h2>
+  <p class="sub center reveal">A little look through my lens. Tap a photo to see it bigger.</p>
+  <div class="grid">
+    <!-- Photos go in the images folder, named Pic1.jpg to Pic6.jpg. Add more by copying a <figure> block. -->
+    <figure class="g tall reveal"><img src="Pic1.jpg" alt="Photo 1 by KASS STUDIO" loading="lazy"></figure>
+    <figure class="g reveal"><img src="Pic2.jpg" alt="Photo 2 by KASS STUDIO" loading="lazy"></figure>
+    <figure class="g reveal"><img src="Pic3.jpg" alt="Photo 3 by KASS STUDIO" loading="lazy"></figure>
+    <figure class="g tall reveal"><img src="Pic4.jpg" alt="Photo 4 by KASS STUDIO" loading="lazy"></figure>
+    <figure class="g reveal"><img src="Pic5.jpg" alt="Photo 5 by KASS STUDIO" loading="lazy"></figure>
+    <figure class="g wide reveal"><img src="Pic6.jpg" alt="Photo 6 by KASS STUDIO" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section pricing" id="pricing">
+  <h2 class="title center reveal">Pricing</h2>
+  <p class="sub center reveal">Simple and clear. You only pay for the time we shoot.</p>
+  <div class="price-wrap">
+    <div class="price-card reveal">
+      <p class="price"><span class="euro">€</span><span class="count" data-to="20">20</span><span class="per">/ hour</span></p>
+      <ul>
+        <li>Shoot in Den Haag &amp; nearby</li>
+        <li>Relaxed, guided session</li>
+        <li>Edited photos in a private gallery</li>
+      </ul>
+    </div>
+    <div class="price-card alt reveal">
+      <p class="price small"><span class="euro">+ €</span><span>XX</span></p>
+      <h3>Travel fee within the Netherlands</h3>
+      <p>I travel to places close by. For shoots elsewhere in the Netherlands, a small travel fee is added. <em>(Placeholder: Kassandra will fill in the amount.)</em></p>
+    </div>
+  </div>
+  <p class="note center reveal">Questions about a shoot? Message me and we'll figure it out together.</p>
+</section>
+
+<!-- BLOG -->
+<section class="section blog" id="blog">
+  <h2 class="title center reveal">Blog</h2>
+  <p class="sub center reveal">Stories, tips and little moments from behind the camera.</p>
+  <div class="posts">
+    <article class="post reveal">
+      <div class="post-img"><img src="images/blog-1.jpg" alt="" loading="lazy"></div>
+      <time>Coming soon</time>
+      <h3>5 tips to feel comfortable in front of the camera</h3>
+      <p>Placeholder text. Kassandra's first post will land here.</p>
+    </article>
+    <article class="post reveal">
+      <div class="post-img"><img src="images/blog-2.jpg" alt="" loading="lazy"></div>
+      <time>Coming soon</time>
+      <h3>Hidden photo spots in Den Haag</h3>
+      <p>Placeholder text. A guide to her favourite corners of the city.</p>
+    </article>
+    <article class="post reveal">
+      <div class="post-img"><img src="images/blog-3.jpg" alt="" loading="lazy"></div>
+      <time>Coming soon</time>
+      <h3>Why memories deserve good photos</h3>
+      <p>Placeholder text. Why she picked up a camera in the first place.</p>
+    </article>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact dark" id="contact">
+  <h2 class="title center reveal">Let's make some memories.</h2>
+  <p class="sub center reveal">Based in Den Haag, The Netherlands. Call me or send a message on TikTok.</p>
+  <div class="contact-links">
+    <a href="tel:+31643883476" class="c-card reveal">
+      <h3>Call</h3>
+      <span>06 43883476</span>
+    </a>
+    <a href="https://www.tiktok.com/@framesbykass" target="_blank" rel="noopener" class="c-card reveal">
+      <h3>TikTok</h3>
+      <span>@framesbykass</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p class="f-logo">Kass Studio</p>
+  <p>People, places &amp; memories preserved through my lens.</p>
+  <p class="copy">© <span id="year"></span> KASS STUDIO · Den Haag, NL · Made by Bz</p>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+  <button class="lb-nav prev" id="lbPrev" aria-label="Previous photo">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lb-nav next" id="lbNext" aria-label="Next photo">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
